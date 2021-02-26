@@ -1,0 +1,343 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Belleza-Regular', sans-serif;
+    font-size: 14px;
+
+    }
+
+
+
+/* .resume {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+
+
+  } */
+
+  .resume {
+    display: grid;
+    width  : 100%;
+    
+   
+    /*grid-template-columns: 30% 40% 30%;
+    grid-template-rows   : auto auto auto auto;
+    */
+
+       
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows   : auto auto auto auto;
+    
+
+    grid-template-areas  :
+    /*    "photo education"
+        "name work"
+        "about work"
+        "skills community";
+        */
+
+       /*  "photo name"
+        "about work"
+        "education work"
+        "skills community"; */
+
+       /* "photo name"
+        "work work"
+        "education community"*/
+
+       /* "photo name about"
+        "education education skills"
+        "work work work"
+        "community community community" */
+
+        /* "photo name contactme"
+        "education education skills"
+        "work work ."
+        "community community ." */
+
+       /* "photo name contactme"
+        "education . work"
+        "community community skills" */
+
+        "name blackblank photo"
+        "education work skills"
+        "community community community"
+
+
+
+}
+
+      
+h1 {
+    font-family: 'Vogue', serif;
+    font-weight: 300;
+    color: #f2f2f2;
+    font-size:xx-large;
+    background-color: #2b2b2d;
+  
+     }
+
+           
+  h2 {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 22px;
+    font-weight: 200;
+    text-align: left;
+  
+     }
+
+
+
+
+
+                
+  h3 {
+    font-family:'Belleza-Regular', sans-serif; 
+    color: #464649;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: left;
+  
+     }
+
+    h4 {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-weight: 200;
+    font-size: 22px;
+    color: #f2f2f2;
+    background-color: #2b2b2d;
+    text-align: left;
+      
+        }
+
+    h5 {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-weight: 200;
+    font-size: 20px;
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+          
+    }
+
+    .links {
+        font-family:'Belleza-Regular', sans-serif; 
+        font-weight: regular;
+        font-size: 16px;
+        color: #f2f2f2;
+        text-align: left;
+        text-decoration: none;
+
+    }
+
+    .links a{
+        font-family:'Belleza-Regular', sans-serif; 
+        font-weight: regular;
+        font-size: 16px;
+        color: #f2f2f2;
+        text-align: left;
+        text-decoration: none;
+        
+    }
+
+     p {
+        font-family: 'Belleza-Regular', sans-serif;
+        font-size: 16px;
+      }
+
+.circle {
+    border          : 1px solid black;
+    /* background-color: white; */
+    background-color: #2b2b2d;
+    height          : 200px;
+    width           : 200px;
+    border-radius   : 50%;
+    justify-content:right;
+}
+
+.grid-area {
+    padding: 10px 20px 20px 10px;
+    /* border : 1px black solid; */
+    /* border: 10px black solid; */
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    
+}
+
+
+.contacts {
+    grid-area: contactme;
+    background-color: #ffffff;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.name {
+    grid-area: name;
+    background-color: #2b2b2d;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 14px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+
+.navigation {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    border-bottom: thin solid #292727;
+    justify-content: flex-end;
+    font-size: 14px;
+    
+   }
+
+   /* .right {
+       align-content: flex-end;
+       align-items: right;
+
+   }
+   */
+
+   .right{
+    /* height: 200px; */
+    /* float: right; */
+    /* justify-items: right; */
+    align-items: right;
+    /* width: 220px; */
+    /* margin-right: 5px;
+    padding-right: 5px;
+    */
+  
+
+  }
+
+
+   .navigation a{
+
+    padding-right: 20px;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.blackblank {
+    grid-area: blackblank;
+    background-color: #2b2b2d;
+    /*font-family:'Belleza-Regular', sans-serif; 
+    font-size: 14px;
+    text-decoration: none; */
+    /* color: #7B7B80; */
+    
+}
+
+.a {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.photo {
+    grid-area       : photo;
+    background-color: #2b2b2d;
+    /* font-family:'Belleza-Regular', sans-serif; 
+    font-size: 14px;
+    text-decoration: none;
+    */
+   
+}
+
+.about {
+    grid-area       : about;
+    background-color: #ffffff;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.contactme {
+    grid-area: contactme;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.work {
+    grid-area: work;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.skills {
+    grid-area       : skills;
+    background-color: #ffffff;
+    
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.education {
+    grid-area       : education;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+.community {
+    grid-area: community;
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    color: #7B7B80; 
+
+}
+
+.bottomnav {
+        
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 16px;
+    text-align: center;
+    
+    display: flexbox;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-justify:auto; */
+    text-decoration: none;
+    color: #7B7B80;
+
+}
+
+/* align cv to center of page */
+
+.wrapper {
+    padding       : 0;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+
+@font-face {
+    font-family: 'Belleza-Regular';
+    src: url(../fonts/Belleza-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Vogue';
+    src: url(../fonts/Vogue.ttf) format('truetype');
+  }
+

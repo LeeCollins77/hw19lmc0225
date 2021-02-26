@@ -1,0 +1,182 @@
+
+body {
+    background-image:url(../images/lcbackground.jpg);
+    background-repeat:no-repeat;
+    
+      font-family: 'Montserrat', sans-serif;
+  }
+
+
+.navigation {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    border-bottom: thin solid #292727;
+    justify-content: flex-end;
+    
+   }
+
+   .navigation a{
+
+   padding-right: 20px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+
+
+
+
+  
+
+
+.item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+
+   }
+
+.header {
+  grid-area: header;
+}
+
+
+
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content-1 {
+  grid-area: content-1;
+}
+
+.content-2 {
+  grid-area: content-2;
+}
+
+.content-3 {
+  grid-area: content-3;
+}
+
+.footer {
+  grid-area: footer;
+  grid-row: 4 / 5;
+  grid-column: 1 / 4;
+}
+
+
+
+
+
+/* OTHER STYLES */
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.item {
+  
+  /* border-radius: 4px;
+  border: 6px solid #171717;
+  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #ffffff;
+
+}
+
+
+.navigation {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    border-bottom: thin solid #292727;
+    justify-content: flex-end;
+    
+   }
+
+   .navigation a{
+
+   padding-right: 20px;
+    text-decoration: none;
+    color: #7B7B80;
+}
+
+
+.sidebar {
+     
+  justify-content: right;
+  height: 200px;
+  float: right;
+  width: 150px;
+  
+  padding-right: 30px;
+  /* align-items: flex-start; */
+}
+
+.content-1,
+.content-2,
+.content-3 {
+
+}
+
+  /* target the class of .right below */
+  /* .right{
+    height: 200px;
+    float: right;
+    width: 150px;
+    
+    padding-right: 30px;
+  
+  }
+  */
+
+.footer {
+  background-color: #6C52D9;
+  background-image: linear-gradient(160deg, #6C52D9 0%, #9B8AE6 127%);
+}
+
+@font-face {
+  font-family: 'Belleza-Regular';
+  src: url(../fonts/Vogue.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Vogue';
+  src: url(../fonts/Vogue.ttf) format('truetype');
+}

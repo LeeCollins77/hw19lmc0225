@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Raleway&display=swap" rel="stylesheet">
+<link href="css/indexexperience.css" rel="stylesheet" type="text/css">
+
+
+<style>
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}  
+
+
+.item1 { grid-area: header; width:80%;}
+.item2 { grid-area: menu; width:90%;}
+.item3 { grid-area: main; width:90% }
+.item4 { grid-area: right; width:80%}
+.item5 { grid-area: footer;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: #3d3c41;
+  padding: 10px;
+  column-gap: 10px;
+  row-gap: 15px;
+  
+}
+
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family:'Belleza-Regular', sans-serif; 
+ 
+  text-align: left;
+  padding: 5px 0;
+  
+}
+
+.item1 {
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 24px;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+
+.item2 {
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 14px;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+
+
+.item3 {
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 14px;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+.item4 {
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 14px;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+.item5 {
+  font-family:'Belleza-Regular', sans-serif; 
+  font-size: 14px;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+li{
+    display: list-item;
+}
+
+p {
+    font-family:'Belleza-Regular', sans-serif; 
+    font-size: 14px;   
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>Resume</h1>
+
+<p>This grid layout contains six columns and three rows:</p>
+
+<div class="grid-container">
+  <div class="item1">Education</div>
+  <div class="item2">Georgia Institute of Technology<br>UX/UI Bootcamp</div>
+  <div class="item3">Atlanta, GA</div>  
+  <div class="item4">Certificate anticipated 3/2021</div>
+  
+</div>
+
+<div class="grid-container">
+    <div class="item2">Kennesaw State University &NonBreakingSpace; &NonBreakingSpace;</div>
+    <div class="item3">Atlanta, GA</div>  
+    <div class="item4">2002</div>
+    <div class="item5">Introduction to XML, Marketing your business or organization on the internet,<br>
+        Photoshop basics, Introduction to Javascript programming, Creating web pages</div>
+  
+  </div>
+
+  <div class="grid-container">
+    
+    <div class="item2">Sweet Briar College &NonBreakingSpace; &NonBreakingSpace;</div>
+    <div class="item3">Sweet Briar, VA</div>  
+    <div class="item4">1990-1994</div>
+    <div class="item5">B.A., Fine Arts</div>
+  
+  </div>
+
+  <div class="grid-container">
+    
+    <div class="item2">LaGrange College &NonBreakingSpace; &NonBreakingSpace;</div>
+    <div class="item3">LaGrange, GA</div>  
+    <div class="item4">Summer 1991</div>
+    <div class="item5">Biology<br>Art History</div>
+  
+  </div>
+
+<!--
+    Start Professional Experience below this comment
+-->
+
+
+<div class="grid-container">
+    <div class="item1">Professional</div>
+    <div class="item2">Axiom Meetings & Incentive Solutions</div>
+    <div class="item3">Atlanta, GA</div>  
+    <div class="item4">Registration Coordinator</div>
+    <div class="item5">Assist program managers with building websites for meeting registration</div>
+    
+  
+  </div>
+  
+  <div class="grid-container">
+      <div class="item2">WorldTravel Meetings & Incentives</div>
+      <div class="item3">Atlanta, GA</div>  
+      <div class="item4">1999 - 2004</div>
+      <div class="item5">Registration Coordinator / Client Relations Liason
+        <ul>
+            <li>Design, program and QA fax forms and websites for client meeting registrations</li>
+            <li> Created simple and complex websites inclusive of hotel, activity, informational,
+                FAQs, weather, single<br>and multiple attendee-type registration, confirmation,
+                change and cancellation forms</li>
+            <li>Apply logical thought when programming registration forms using HTML and
+                Javascript</li>
+            <li>Create website graphics according to client’s requests</li>
+            <li>Relate attendee air, hotel and activity changes / cancellations to Program Manager</li>
+            <li>Provide hotel contact with number of attendees requiring accommodations and
+                special needs
+             </li>
+             <li>Run hotel and activity reports, as well flight manifests</li>
+
+        </ul>
+
+    <p>Plan2Attend Support (software developed by WTMI)</p>
+    <ul>
+        <li>Assisted in writing the User Manual for Plan2Attend (meeting registration software
+            for clients to build their<br>own registration websites for meetings developed by WorldTravel Meetings & Incentives IT Department)
+         </li>
+         <li>Support for Plan2Attend users</li>
+    </ul>
+
+
+      </div>
+    
+    </div>
+
+    <div class="grid-container">
+        <div class="item1">Honors & Awards</div>
+        <div class="item2">       <ul>
+            <li>WorldTravel Meetings & Incentives Circle of Excellence Recipient,  twice</li>
+            <li>Selected to serve on the 2004 WorldTravel  Meetings & Incentives Circle of Excellence Committee</li>
+        </ul>
+    </div>
+        
+      </div>
+
+
+<div class="grid-container">
+    <div class="item1">Volunteer</div>
+    <div class="item2">Driftwood Garden Club</div>
+    <div class="item3">Newnan, GA</div>  
+    <div class="item4">2007 - Present</div>
+    <div class="item5">Driftwood Garden Club is a nonprofit organization that strives to grow and<br>
+        beautify the community of Newnan, GA.</div> 
+        
+        
+    </div>
+
+  
+
+ 
+
+
+</body>
+</html>
