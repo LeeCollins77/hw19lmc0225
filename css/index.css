@@ -7,6 +7,19 @@ body {
     font-family: 'Belleza-Regular', sans-serif;
 }
 
+
+
+.header {
+  background-image:url(../images/silhouttelc2.png);
+  background-repeat:no-repeat;
+  height:100px;
+  margin: 0;
+  background-size: cover;
+  z-index: 10;
+  opacity: 0;
+  }
+  
+
 h1 {
     font-family: 'Vogue', sans-serif;
 
@@ -48,16 +61,18 @@ h2 {
 
    .flex-container {
     flex-direction: column;
-  }
-
-   .navigation {
+  }   
+  
+  .navigation {
     font-family:'Belleza-Regular', sans-serif; 
-    height: 50px;
+    height: 100px;
     display: flex;
     align-items: center;
     margin-left: auto;
     border-bottom: thin solid #292727;
     justify-content: flex-end;
+    background-image:url(.../images/silhouttelc2.png);
+    background-repeat:no-repeat;
     
    }
 
@@ -111,12 +126,10 @@ color: #7B7B80;
    }
   
    /*below this is inserting a new css style guide*/
-  
+
    nav {
-    
-    /* font-family: 'Montserrat', sans-serif; */
-    
-    
+    background-image:url(.../images/chheader100.png);
+    background-repeat:no-repeat;
   }
    /* target the class of inline-block below */
   .inline-block {
@@ -193,11 +206,10 @@ color: #7B7B80;
 
 
     .containermyname {
-      /* display: flex; */
-      /* or inline-flex */
+
       justify-content: space-between;
       align-items: flex;
-      width: 85%%;
+      width: 85%;
       flex-direction: row;
     }
 

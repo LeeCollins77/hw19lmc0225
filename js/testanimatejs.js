@@ -1,4 +1,9 @@
+$(document).ready(function(){
+  $('.header').animate({'opacity':'1'},1000);
+  
+  });
 
+  
 /* var img = document.querySelector("img");
 document.body.classList.add('js-loading');
 img.addEventListener("load", removeLoadingClass);
